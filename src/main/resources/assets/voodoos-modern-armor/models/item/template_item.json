@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "voodoosmodernarmor:item/template_item"
+    "layer0": "voodoos-modern-armor:item/template_item"
   }
 }

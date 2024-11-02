@@ -2,6 +2,7 @@ package net.iamvoodoo.voodoosmodernarmor;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.iamvoodoo.voodoosmodernarmor.item.ModItemGroup;
 import net.iamvoodoo.voodoosmodernarmor.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,6 +14,8 @@ public class VoodoosModernArmor implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroup.registerItemGroups();
+
 		ModItems.registerModItems();
 	}
 }
